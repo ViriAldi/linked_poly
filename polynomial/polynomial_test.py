@@ -17,8 +17,8 @@ for line in data_list:
     degree, coefficient = line.strip().split()
     poly2._appendTerm(float(degree), float(coefficient))
 
-#print(poly1)
-#print(poly2)
+print(poly1)
+print(poly2)
 
 
 print(poly1.degree())
